@@ -25,6 +25,7 @@
     height: 150px;
     width:100%;
     display: flex;
+    
     justify-content: space-between;
     text-align: center;
     padding: 10px 350px 0px 10px 5px ;
@@ -38,7 +39,8 @@
 #estilo-footer{
     height: max-content;
     width: 100%;
-
+    
+        bottom: 0  ;
     border: white solid 1px;
     display: flex;
     justify-content: center;
@@ -86,10 +88,10 @@
 }
 
 .bi-instagram{
-    font-size:40px;
+    font-size:30px;
 }
 .bi-facebook{
-    font-size: 40px;
+    font-size: 30px;
 } 
 
 
@@ -449,7 +451,7 @@
 
 
 .contenedor_ubicacion{
-    height: max-content;
+    height: 100%;
     width: 100%;
     border: white solid 0.5px;
     
@@ -611,18 +613,19 @@
 #estilo-footer{
         height: max-content;
         width: 100%;
-    
-        border: white solid 1px;
+        position: fixed;
+        margin: 0;
+        bottom: 0;
+        
         display: flex;
         justify-content: center;
         
         background-color:rgb(255, 251, 233);
     
     }
-    
-.body_oficial> .footer_index> {
-    padding-inline-end: 20%;
-}
+
+
+
 
 .logo img{
         height: 80px;
