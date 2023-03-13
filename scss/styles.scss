@@ -1,20 +1,11 @@
 
 @import "index" ;
-
 @import "navbar" ;
-
 @import "botones" ; 
-
 @import "equipo" ;
-
 @import "contacto" ;
-
 @import "galeria" ;
-
 @import "media480" ;
-
-
-
 $color-black: black;
 $tamaño-letra: 20px ;
 $color-body:rgb(227, 202, 165);
@@ -29,6 +20,21 @@ $borde-logo:black 1px solid ;
 
 
 
+.main_filosofia{
+    h1{
+        display: flex;
+        justify-content: center; }
+                    p{
+                    display: flex;
+                    justify-content:center;
+                    margin-left:5px;
+                    font-size: 25px;
+                }   div{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+}
 
 
 
