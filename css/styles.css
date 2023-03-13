@@ -476,7 +476,18 @@
 .main_galeria div {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   padding: 10px;
+}
+
+.main_galeria .grid-gallery .Proyectos_profesionales {
+  display: flex;
+  flex-direction: column;
+}
+
+.main_galeria .grid-gallery .Proyectos_residenciales {
+  display: flex;
+  flex-direction: column;
 }
 
 /*mediaqueries*/
