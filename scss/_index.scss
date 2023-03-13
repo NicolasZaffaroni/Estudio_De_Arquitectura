@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0%;
+
+    
+
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-size: $tamaño-letra ;
+} 
+
+.body_oficial{
+    
+    background-color:$color-body;
+}
+
+
+
+
+
+
+.contenedor_grid{
+    
+        width: 100%;
+        height: 325px;
+        margin: auto;
+        font-size:1000px;
+    
+        
+        text-align: center;
+    
+        display: grid;    }
+
+
+.contenedor_grid > div  {
+    font-size:60px ;
+    
+    color:  rgb(125, 90, 80);
+    background-image:url(../assets/Imagenes/Foto-index-casa-para_contenedor.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.contenedor_grid > div >a {
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+.contenedor_grid > div >a > button{
+    padding: 0.85em 1.5em;
+    font-size: 1 em;
+    color: rgb(125, 90, 80);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background: none;
+    
+
+} 
+
+
+
+.contenedor_grid a :hover{
+    transform: scale(1.5);
+    color: rgb(125, 90, 80);
+
+}
+
+
+
+
+
+
+.contenedor_ubicacion{
+    height: 100%;
+    width: 100%;
+    border: white solid 0.5px;
+    
+
+        }
+
+.bi-balloon{
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color:black;
+}
