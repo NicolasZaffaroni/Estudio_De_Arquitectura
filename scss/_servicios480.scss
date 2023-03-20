@@ -1,0 +1,19 @@
+@media screen and (min-width:0) and  (max-width: 480px){
+
+.main_servicios{
+    h1{
+        font-size: 30px;
+        margin-top: 40px;
+        display: flex;
+        text-align: center;
+        }
+}
+
+.botones_Servicios{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+}

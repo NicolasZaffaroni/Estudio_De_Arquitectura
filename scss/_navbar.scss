@@ -9,41 +9,25 @@ $borde-logo:black 1px solid ;
 
 .header_menu{
 
-    background-color:$color-nav;
-    height: 150px;
-    width:100%;
+
     display: flex;
+    justify-content:space-between;
     
-    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 10px;
     text-align: center;
     padding: 10px 350px 0px 10px 5px ;
 }
-.header_menu > div >  .titulo{
-    padding-left: 10px ;
-    margin-top: 0;
-    margin-bottom: 1rem;
-}
 
-#estilo-footer{
-    height: max-content;
-    width: 100%;
-    
-        bottom: 0  ;
-    border: white solid 1px;
-    display: flex;
-    justify-content: center;
-    
-    background-color:rgb(255, 251, 233);
 
-}
 
 .logo img{
-    height: 100px;
-    width: 100px;
-    margin: 5px;
+    float: left;
+    width: 150px;
     margin-top: 5px;
     border-radius: 50%;
     border:$borde-logo;
+    transform: translate(5px);
     
 
 }
@@ -60,7 +44,7 @@ $borde-logo:black 1px solid ;
     padding: 5px;
 }
 .header_menu .menu_links a{
-    font-size:  25px;
+    font-size:  20px;
     
 
     text-decoration:none;
@@ -71,14 +55,21 @@ $borde-logo:black 1px solid ;
 
 
 .header_menu .menu_links a:hover{
-    color: rgb(125, 90, 80);
-
+    color:black;
 }
 
 .bi-instagram{
     font-size:30px;
+    
 }
 .bi-facebook{
+    
     font-size: 30px;
 } 
 
+.header_menu .menu_links .bi-facebook:hover{
+    color:black; }
+
+
+    .header_menu .menu_links .bi-instagram:hover{
+        color:black; }

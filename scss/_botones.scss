@@ -8,9 +8,10 @@ $borde-logo:black 1px solid ;
 
 
 .boton_enviar{
-    font-family: monospace;
-    background-color:rgb(253, 238, 220);
-    color: black;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #434343;
+    color: white;
     border: none;
     border-radius: 8px;
     width: 100px;
@@ -20,9 +21,9 @@ $borde-logo:black 1px solid ;
     font-size: smaller;
 }
 .boton_enviar:hover {
-    background-color:rgb(173, 139, 115);
-    box-shadow: 0 0 0 5px  rgb(125, 90, 80);
-    color: white;
+    background-color:white;
+    box-shadow: 0 0 0 5px   black;
+    color:black;
 }
 
 
@@ -30,8 +31,8 @@ $borde-logo:black 1px solid ;
     width: 6.5em;
     height: 2.3em;
     margin: 1.1em;
-    background:  rgb(173, 139, 115);
-    color: black;
+    background:  #434343;
+    color: white;
     border: none;
     border-radius: 0.625em;
     font-size: 20px;
@@ -71,7 +72,7 @@ $borde-logo:black 1px solid ;
 
 .fancy {
     background-color: transparent;
-    border: 2px solid rgb(173, 139, 115);
+    border: 2px solid #434343;
     border-radius: 0;
     box-sizing: border-box;
     color: #fff;
@@ -97,7 +98,7 @@ $borde-logo:black 1px solid ;
     content: " ";
     width: 1.5625rem;
     height: 2px;
-    background:rgb(206, 171, 147);
+    background:white;
     top: 50%;
     left: 1.5em;
     position: absolute;
@@ -115,7 +116,7 @@ $borde-logo:black 1px solid ;
     transition: all 0.3s ease-in-out;
     text-transform: uppercase;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .fancy .top-key {
@@ -149,18 +150,20 @@ $borde-logo:black 1px solid ;
 }
 
 .fancy:hover {
-    color: white;
-    background:rgb(206, 171, 147);
+    color: black;
+    background:white;
 }
 
 .fancy:hover::before {
     width: 0.9375rem;
     background: white;
+    color: black;
 }
 
 .fancy:hover .text {
     color: white;
     padding-left: 1.5em;
+    color: black;
 }
 
 .fancy:hover .top-key {

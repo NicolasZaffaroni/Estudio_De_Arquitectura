@@ -1,0 +1,44 @@
+@media screen and (min-width:0) and  (max-width: 480px){
+
+.header_menu{
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-around;
+    text-align: left;
+}
+
+
+.logo img{
+    height: 65px;
+    width: 65px;
+    margin: 15px;
+}
+
+
+.header_menu .menu_links{
+    list-style: none;
+    justify-self: end;
+
+}
+
+.header_menu .menu_links li{
+    display: inline-block;
+    padding: 5px;
+}
+.header_menu .menu_links a{
+    font-size: 30px;
+    
+
+    text-decoration:none;
+    color: white;
+
+}
+
+.bi-instagram{
+    font-size:25px;
+}
+.bi-facebook{
+font-size: 25px;
+} 
+}

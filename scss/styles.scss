@@ -5,7 +5,27 @@
 @import "equipo" ;
 @import "contacto" ;
 @import "galeria" ;
-@import "media480" ;
+@import "footer" ;
+@import"filosofia" ;
+@import "proyectos";
+@import"servicios" ;
+
+
+@import "index480" ;
+@import "navbar480" ;
+@import "botones480" ; 
+@import "equipo480" ;
+@import "contacto480" ;
+@import "galeria480" ;
+@import "footer480" ;
+@import"filosofia480" ;
+@import "proyectos480";
+
+@import"servicios480" ;
+@import "obranueva480" ;
+@import"renderizado480" ;
+@import"reformas480";
+
 $color-black: black;
 $tamaño-letra: 20px ;
 $color-body:rgb(227, 202, 165);
@@ -17,26 +37,6 @@ $borde-logo:black 1px solid ;
     font-family:"Oswald-medium";
     src: url(../fonts/Oswald-Medium.ttf);
 }
-
-
-
-.main_filosofia{
-    h1{
-        display: flex;
-        justify-content: center; }
-                    p{
-                    display: flex;
-                    justify-content:center;
-                    margin-left:5px;
-                    font-size: 25px;
-                }   div{
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                }
-}
-
-
 
 
 

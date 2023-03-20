@@ -1,0 +1,120 @@
+
+.main_filosofia{
+    h1{
+        display: flex;
+        justify-content: center; }
+                    p{
+                    display: flex;
+                    justify-content:center;
+                    margin-left:5px;
+                    font-size: 25px;
+                }   div{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+}
+
+.presentacion_juancarlos{
+    
+    h1{display:flex;
+        font-size: 45px;
+        justify-content: center;
+        }
+        }
+
+.presentacion_juancarlos {
+display: flex;
+flex-direction:row;
+}
+
+
+.presentacion_juancarlos  .foto_juancarlos{
+width: 250px;
+height: 250px;
+border: 1px white solid;
+transform: translateX(650px);
+
+}
+.presentacion_juancarlos .parrafo_juancarlos{
+font-size: 20px;
+
+}
+
+
+
+
+
+.fade-in {
+	-webkit-animation: fade-in 5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: fade-in 5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+@-webkit-keyframes fade-in {
+    0% {
+    opacity: 0;
+    }
+    100% {
+    opacity: 1;
+    }
+}
+@keyframes fade-in {
+    0% {
+    opacity: 0;
+    }
+    100% {
+    opacity: 1;
+    }
+}
+
+
+
+.fade-in2 {
+	-webkit-animation: fade-in 3.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: fade-in 3.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+@-webkit-keyframes fade-in {
+    0% {
+    opacity: 0;
+    }
+    100% {
+    opacity: 1;
+    }
+}
+@keyframes fade-in {
+    0% {
+    opacity: 0;
+    }
+    100% {
+    opacity: 1;
+    }
+}
+
+
+
+.fade-in3 {
+	-webkit-animation: fade-in 4.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: fade-in 4.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+@-webkit-keyframes fade-in {
+    0% {
+    opacity: 0;
+    }
+    100% {
+    opacity: 1;
+    }
+}
+@keyframes fade-in {
+    0% {
+    opacity: 0;
+    }
+    100% {
+    opacity: 1;
+    }
+}
+

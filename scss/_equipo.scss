@@ -1,10 +1,10 @@
 
-$color-black: black;
+$color-white: white;
 $tamaño-letra: 20px ;
 $color-body:rgb(227, 202, 165);
 $color-nav:rgb(206, 171, 147) ;
 $bordes-fotos: white 1px solid;
-$borde-logo:black 1px solid ;
+$borde-logo:white 1px solid ;
 
 
 
@@ -16,12 +16,12 @@ $borde-logo:black 1px solid ;
 }
 
 .main_equipo h1{
-    font-family:'Oswald', sans-serif ;
-    font-size: xx-large;
-    font-weight:bolder;
-    color: black; 
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    color: white; 
 
-    padding-left: 40%;
+    padding-left: 29%;
 }
 .main_equipo .equipo{
     list-style:none;
@@ -34,14 +34,14 @@ $borde-logo:black 1px solid ;
     
 }
 .main_equipo .equipo li a{
-    color: black;
+    color: white;
     text-decoration:none;
 }
 
 .main_equipo .equipo .btn button{
     font-weight: 30px;
-    color:black;
-    background-color:rgb(253, 238, 220);
+    color:white;
+    background-color:#434343;;
     border: none;
     border-radius: 15px;
     width: 100px;
@@ -51,117 +51,136 @@ $borde-logo:black 1px solid ;
     
 } 
 .main_equipo .equipo .btn button:hover{
-    background-color:rgb(173, 139, 115);
+    background-color :white;
     border-radius: 20px;
     padding: 5px;
-    color:white;
-    box-shadow: 0 0 0 6px rgb(125, 90, 80);
+    color:black;
+    box-shadow: grey;
 
 
 }
 
-
-.main_pedrocane > h1 {
-    margin: 10px    ;
-    display: flex;
-    font-size: xx-large;
-    justify-content: center;
-
-
-
-}
-
-.main_pedrocane .foto_pedro {
-    height:300px;
-    width: 300px;
-
-
-    margin-left: 41%;
+.main_pedrocane{
     
-    
-    border-radius: 70%;
-    border: $bordes-fotos;
-    }
-
-
-
-    .main_pedrocane > p {
-        margin: 15px    ;
-        display: flex;
-    
+    h1{display:flex;
+        font-size: 60px;
         justify-content: center;
-    
-    
-    
-    }
-
-
-.main_ignaciocane > h1 {
-    margin: 10px    ;
-    display: flex;
-    font-size: xx-large;
-    justify-content: center;
-
-
-
-}
-
-.main_ignaciocane .foto_nacho {
-    height:400px;
-    width: 400px;
-
-
-
-    margin-left: 38%;
-    
-    border-radius: 70%;
-    border:$bordes-fotos;
-    }
-
-
-
-.main_ignaciocane > p {
-        margin: 10px    ;
-        display: flex;
-    
-        justify-content: center;
-    
-    
-    
-    }
-
-
-.main_juancane> h1 {
-        margin: 10px    ;
-        display: flex;
-        font-size: xx-large;
-        justify-content: center;
-    
-    
-    
-    }
-    
-.main_juancane .foto_juan {
-        height:400px;
-        width: 400px;
-    
-    
-    
-        margin-left: 38%;
-        
-        border-radius: 70%;
-        border:$bordes-fotos;
         }
+        }
+
+.presentacion_pedro {
+display: flex;
+flex-direction:column;
+justify-content:space-around;
+}
+
+
+.presentacion_pedro div .foto_pedro{
+width: 300px;
+height: 300px;
+margin-right: 20px;
+opacity: 65%;
+transform: translateX(625px);
+border: 1px white solid;
+
+}
+.presentacion_pedro div .parrafo_pedro{
+font-size: 30px;
+margin-left: 10px;
+}
+
+
+
+
+
+.presentacion_nacho{
     
-    
-    
-.main_juancane > p {
-            margin: 10px    ;
-            display: flex;
-        
+        h1{display:flex;
+            font-size: 60px;
             justify-content: center;
-        
-        
+            }
+            }
+
+.presentacion_nacho div{
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+}
+
+
+.presentacion_nacho div .foto_nacho{
+    width: 300px;
+    height: 300px;
+    transform: translateX(625px);
+    opacity: 65%;
+    border: 1px white solid; }
+
+
+.presentacion_nacho div .parrafo_nacho{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.slide-in-bck-center {
+	-webkit-animation: slide-in-bck-center 1.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-in-bck-center 1.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+@-webkit-keyframes slide-in-bck-center {
+    0% {
+    -webkit-transform: translateZ(600px);
+            transform: translateZ(600px);
+opacity: 0;
+    }
+    100% {
+    -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    opacity: 1;
+    }
+}
+@keyframes slide-in-bck-center {
+    0% {
+    -webkit-transform: translateZ(600px);
+            transform: translateZ(600px);
+    opacity: 0;
+    }
+    100% {
+    -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    opacity: 1;
+    }
+}
+
+
+
+
+
+.main_juancane{
+    
+    h1{display:flex;
+        font-size: 60px;
+        justify-content: center;
         
         }
-    
+        }
+
+.presentacion_juan div{
+display: flex;
+flex-direction:column;
+justify-content:space-around;
+}
+
+
+.presentacion_juan div .foto_juan{
+width: 300px;
+height: 300px;
+transform: translateX(635px);
+opacity: 65%;
+border: 1px white solid; }
+
+
+.presentacion_juan div .parrafo_juan{
+font-size: 30px;
+padding-left: 10px;
+}
