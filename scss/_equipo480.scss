@@ -72,79 +72,73 @@
                     }
                     }
             
-            .presentacion_pedro {
-            display: flex;
-            flex-direction:column;
-            justify-content:space-around;
-            }
             
             
-            .presentacion_pedro div .foto_pedro{
-            width: 100px;
-            height: 100px;
-            border: 1px white solid;
+            div .foto_pedro{
+                width: 200px;
+                height:200px;
+                justify-items: center;
+                opacity: 65%;
+                border: 1px white solid; 
+                margin-left: 50px;}
+        
             
-            }
-            .presentacion_pedro div .parrafo_pedro{
+            div .parrafo_pedro{
             font-size: 15px;
-            margin-left: 10px;
+            text-align: center;
+            
             }
 
-            .presentacion_nacho{
+            .main_ignaciocane{
     
                 h1{display:flex;
                     font-size: 35px;
                     justify-content: center;
                     }
                     }
-        
-        .presentacion_nacho div{
-            display: flex;
-            flex-direction:column;
-            justify-content:space-around;
-        }
-        
-        
-        .presentacion_nacho div .foto_nacho{
-            width: 300px;
-            height: 300px;
+        div .foto_nacho{
+            width: 200px;
+            height:200px;
+            justify-items: center;
             opacity: 65%;
-            border: 1px white solid; }
+            border: 1px white solid; 
+            margin-left: 50px;}
+    }
         
         
-        .presentacion_nacho div .parrafo_nacho{
+        div .parrafo_nacho{
             font-size: 15px;
-            margin-left: 10px;
+            text-align: center;
+            
         }
 
 
-.main_juancane{
+        .main_juancane{
     
             h1{
-                font-size: 35px;
+                font-size: 30px;
                 
-                text-align: left;
+                text-align: center;
                 
-                
-                }
-                .presentacion_juan{
-                justify-items: center;
                 
                 }
                 }
         
 
         
-        .presentacion_juan div .foto_juan{
-        width: 300px;
+        div .foto_juan{
+        width: 200px;
         height:200px;
-        justify-items: left;
+        justify-items: center;
         opacity: 65%;
-        border: 1px white solid; }
+        border: 1px white solid; 
+        margin-left: 50px;}
+
         
         
-        .presentacion_juan div .parrafo_juan{
-        font-size: 18px;
+        div .parrafo_juan{
+        font-size: 15px;
+        text-align: center;
         
         }
-}
+

@@ -1,0 +1,73 @@
+@media screen and (min-width:0) and  (max-width: 480px){
+
+
+    .main_filosofia{
+        h1{
+            font-family: 'Inter', sans-serif;
+            font-family: 'Montserrat', sans-serif;
+            font-size:20px ;
+            text-align: center;
+            display: flex;
+            justify-content: center; }
+
+}
+
+.juancarloscane{
+    display: flex;
+    flex-direction: row-reverse;
+    text-align:left;
+    padding: 5px;
+}
+
+.juancarloscane {
+    .imagen_juancarlos{
+        border: solid 1 px white;
+        margin-top: 40px;
+        height: 100px;
+        width: 100px;
+    }.texto_juancarlos{
+        font-size: 15px;
+        margin-top: 40px;
+    }
+} 
+
+
+.juancane{
+    display: flex;
+    flex-direction: row;
+    text-align:left;
+    padding: 5px;
+}
+
+.juancane {
+    .imagen_juan{
+        border: solid 1 px white;
+        margin-top: 40px;
+        height: 100px;
+        width: 100px;
+    }.texto_juan{
+        font-size: 15px;
+        margin-top: 40px;
+    }
+} 
+
+
+.canehijos{
+    display: flex;
+    flex-direction: row-reverse;
+    border: solid 1 px white;
+    text-align:left;
+    padding: 5px;
+}
+
+.canehijos {
+    .imagen_canehijos{
+        margin-top: 40px;
+        height: 100px;
+        width: 100px;
+    }.texto_canehijos{
+        font-size: 15px;
+        margin-top: 40px;
+    }
+} 
+}

@@ -518,6 +518,7 @@
   bottom: 0;
   display: flex;
   justify-content: center;
+  transform: translateY(200px);
 }
 
 .bi-balloon {
@@ -528,76 +529,67 @@
 }
 
 .main_filosofia h1 {
+  font-family: "Inter", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
   display: flex;
-  justify-content: center;
-}
-.main_filosofia p {
-  display: flex;
-  justify-content: center;
-  margin-left: 5px;
-  font-size: 25px;
-}
-.main_filosofia div {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
 }
 
-.presentacion_juancarlos h1 {
+.juancarloscane {
   display: flex;
-  font-size: 45px;
-  justify-content: center;
+  flex-direction: row-reverse;
+  border: solid 1 px white;
+  text-align: left;
+  padding: 5px;
 }
 
-.presentacion_juancarlos {
+.juancarloscane .imagen_juancarlos {
+  margin-top: 40px;
+  height: 300px;
+  width: 300px;
+}
+.juancarloscane .texto_juancarlos {
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+.juancane {
   display: flex;
   flex-direction: row;
+  border: solid 1 px white;
+  text-align: left;
+  padding: 5px;
 }
 
-.presentacion_juancarlos .foto_juancarlos {
-  width: 250px;
-  height: 250px;
-  border: 1px white solid;
-  transform: translateX(650px);
+.juancane .imagen_juan {
+  margin-top: 40px;
+  height: 300px;
+  width: 300px;
+}
+.juancane .texto_juan {
+  font-size: 30px;
+  margin-top: 40px;
 }
 
-.presentacion_juancarlos .parrafo_juancarlos {
-  font-size: 20px;
+.canehijos {
+  display: flex;
+  flex-direction: row-reverse;
+  border: solid 1 px white;
+  text-align: left;
+  padding: 5px;
 }
 
-.fade-in {
-  animation: fade-in 5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+.canehijos .imagen_canehijos {
+  margin-top: 40px;
+  height: 300px;
+  width: 300px;
 }
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+.canehijos .texto_canehijos {
+  font-size: 30px;
+  margin-top: 40px;
 }
-.fade-in2 {
-  animation: fade-in 3.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-}
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-.fade-in3 {
-  animation: fade-in 4.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-}
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
+
 .main_proyectos h1 {
   font-family: "Inter", sans-serif;
   font-family: "Montserrat", sans-serif;
@@ -739,7 +731,7 @@
   }
   .contenedor_grid {
     width: 100%;
-    height: 30px;
+    height: 40px;
     display: grid;
     text-align: center;
   }
@@ -761,21 +753,17 @@
   }
   .contenedor_grid > div > a > button {
     padding: 0.85em 1.5em;
-    font-size: 1 em;
+    font-size: 15px;
     color: black;
     border: none;
-    border-radius: 25px;
+    border-radius: 15px;
     cursor: pointer;
     background: none;
+    text-decoration: none;
   }
   .contenedor_grid a :hover {
     transform: scale(1.5);
     color: black;
-  }
-  .contenedor_ubicacion {
-    height: 30px;
-    width: 100%;
-    margin-top: 120px;
   }
 }
 @media screen and (min-width: 0) and (max-width: 480px) {
@@ -795,11 +783,11 @@
     justify-self: end;
   }
   .header_menu .menu_links li {
-    display: inline-block;
+    display: list-item;
     padding: 5px;
   }
   .header_menu .menu_links a {
-    font-size: 30px;
+    font-size: 25px;
     text-decoration: none;
     color: white;
   }
@@ -860,58 +848,56 @@
     font-size: 35px;
     justify-content: center;
   }
-  .presentacion_pedro {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
-  .presentacion_pedro div .foto_pedro {
-    width: 100px;
-    height: 100px;
+  div .foto_pedro {
+    width: 200px;
+    height: 200px;
+    justify-items: center;
+    opacity: 65%;
     border: 1px white solid;
+    margin-left: 50px;
   }
-  .presentacion_pedro div .parrafo_pedro {
+  div .parrafo_pedro {
     font-size: 15px;
-    margin-left: 10px;
+    text-align: center;
   }
-  .presentacion_nacho h1 {
+  .main_ignaciocane h1 {
     display: flex;
     font-size: 35px;
     justify-content: center;
   }
-  .presentacion_nacho div {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
-  .presentacion_nacho div .foto_nacho {
-    width: 300px;
-    height: 300px;
-    opacity: 65%;
-    border: 1px white solid;
-  }
-  .presentacion_nacho div .parrafo_nacho {
-    font-size: 15px;
-    margin-left: 10px;
-  }
-  .main_juancane h1 {
-    font-size: 35px;
-    text-align: left;
-  }
-  .main_juancane .presentacion_juan {
-    justify-items: center;
-  }
-  .presentacion_juan div .foto_juan {
-    width: 300px;
+  div .foto_nacho {
+    width: 200px;
     height: 200px;
-    justify-items: left;
+    justify-items: center;
     opacity: 65%;
     border: 1px white solid;
-  }
-  .presentacion_juan div .parrafo_juan {
-    font-size: 18px;
+    margin-left: 50px;
   }
 }
+div .parrafo_nacho {
+  font-size: 15px;
+  text-align: center;
+}
+
+.main_juancane h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+div .foto_juan {
+  width: 200px;
+  height: 200px;
+  justify-items: center;
+  opacity: 65%;
+  border: 1px white solid;
+  margin-left: 50px;
+}
+
+div .parrafo_juan {
+  font-size: 15px;
+  text-align: center;
+}
+
 @media screen and (min-width: 0) and (max-width: 480px) {
   .main_contacto h1 {
     font-size: 25px;
@@ -957,6 +943,14 @@
     box-shadow: 0 0 0 5px black;
     color: black;
   }
+  .contenedor_ubicacion h1 {
+    font-size: 20px;
+  }
+  .contenedor_ubicacion {
+    height: 30px;
+    width: 100%;
+    margin-bottom: 50px;
+  }
   #botones_link {
     color: black;
     text-decoration: none;
@@ -989,7 +983,9 @@
 @media screen and (min-width: 0) and (max-width: 480px) {
   #estilo-footer {
     bottom: 0;
+    font-size: 20px;
     display: flex;
+    transform: translateY(100px);
     justify-content: center;
   }
   .bi-balloon {
@@ -997,6 +993,172 @@
     cursor: pointer;
     text-decoration: none;
     color: white;
+  }
+}
+@media screen and (min-width: 0) and (max-width: 480px) {
+  .main_filosofia h1 {
+    font-family: "Inter", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .juancarloscane {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: left;
+    padding: 5px;
+  }
+  .juancarloscane .imagen_juancarlos {
+    border: solid 1 px white;
+    margin-top: 40px;
+    height: 100px;
+    width: 100px;
+  }
+  .juancarloscane .texto_juancarlos {
+    font-size: 15px;
+    margin-top: 40px;
+  }
+  .juancane {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding: 5px;
+  }
+  .juancane .imagen_juan {
+    border: solid 1 px white;
+    margin-top: 40px;
+    height: 100px;
+    width: 100px;
+  }
+  .juancane .texto_juan {
+    font-size: 15px;
+    margin-top: 40px;
+  }
+  .canehijos {
+    display: flex;
+    flex-direction: row-reverse;
+    border: solid 1 px white;
+    text-align: left;
+    padding: 5px;
+  }
+  .canehijos .imagen_canehijos {
+    margin-top: 40px;
+    height: 100px;
+    width: 100px;
+  }
+  .canehijos .texto_canehijos {
+    font-size: 15px;
+    margin-top: 40px;
+  }
+}
+@media screen and (min-width: 0) and (max-width: 480px) {
+  .main_proyectos h1 {
+    font-family: "Inter", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  .main_proyectos p {
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+    font-size: 15px;
+  }
+  .proyecto1 {
+    display: flex;
+    flex-direction: row-reverse;
+    border: solid 1 px white;
+    text-align: left;
+    padding: 5px;
+  }
+  .proyecto1 .imagen_proyecto1 {
+    margin-top: 40px;
+    height: 100px;
+    width: 100px;
+  }
+  .proyecto1 .texto_proyecto1 {
+    font-size: 15px;
+    margin-top: 40px;
+  }
+  .proyecto2 {
+    display: flex;
+    flex-direction: row;
+    border: solid 1 px white;
+    text-align: left;
+    padding: 5px;
+  }
+  .proyecto2 .imagen_proyecto2 {
+    margin-top: 40px;
+    height: 100px;
+    width: 100px;
+  }
+  .proyecto2 .texto_proyecto2 {
+    font-size: 15px;
+    margin-top: 40px;
+  }
+  .boton_proyectos {
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 10px;
+    font-family: "Inter", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    --hover-shadows: 16px 16px 33px #121212,
+                    -16px -16px 33px #303030;
+    --accent:white;
+    letter-spacing: 0.1em;
+    border: none;
+    border-radius: 1.1em;
+    background-color: #212121;
+    color: white;
+    padding: 1em 2em;
+    transition: box-shadow ease-in-out 0.3s, background-color ease-in-out 0.1s, letter-spacing ease-in-out 0.1s, transform ease-in-out 0.1s;
+    box-shadow: 13px 13px 10px #1c1c1c, -13px -13px 10px #262626;
+  }
+  .boton_proyectos:hover {
+    box-shadow: var(--hover-shadows);
+  }
+  .boton_proyectos:active {
+    color: black;
+    box-shadow: var(--hover-shadows), var(--accent) 0px 0px 30px 5px;
+    background-color: var(--accent);
+    transform: scale(0.95);
+  }
+  .boton_proyectos2 {
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    --hover-shadows: 16px 16px 33px #121212,
+                    -16px -16px 33px #303030;
+    --accent:white;
+    letter-spacing: 0.1em;
+    border: none;
+    border-radius: 1.1em;
+    background-color: #212121;
+    color: white;
+    padding: 1em 2em;
+    transition: box-shadow ease-in-out 0.3s, background-color ease-in-out 0.1s, letter-spacing ease-in-out 0.1s, transform ease-in-out 0.1s;
+    box-shadow: 13px 13px 10px #1c1c1c, -13px -13px 10px #262626;
+  }
+  .boton_proyectos2:hover {
+    box-shadow: var(--hover-shadows);
+  }
+  .boton_proyectos2:active {
+    color: black;
+    box-shadow: var(--hover-shadows), var(--accent) 0px 0px 30px 5px;
+    background-color: var(--accent);
+    transform: scale(0.95);
+  }
+  .link-style h4 {
+    font-size: 15px;
+  }
+  .link-style .youtube_proyecto {
+    width: 300px;
+    height: 300px;
   }
 }
 @media screen and (min-width: 0) and (max-width: 480px) {
