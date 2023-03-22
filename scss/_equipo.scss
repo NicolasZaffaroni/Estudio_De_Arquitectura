@@ -68,14 +68,10 @@ $borde-logo:white 1px solid ;
         }
         }
 
-.presentacion_pedro {
-display: flex;
-flex-direction:column;
-justify-content:space-around;
-}
 
 
-.presentacion_pedro div .foto_pedro{
+
+div .foto_pedro{
 width: 300px;
 height: 300px;
 margin-right: 20px;
@@ -84,7 +80,7 @@ transform: translateX(625px);
 border: 1px white solid;
 
 }
-.presentacion_pedro div .parrafo_pedro{
+div .parrafo_pedro{
 font-size: 30px;
 margin-left: 10px;
 }
@@ -93,7 +89,7 @@ margin-left: 10px;
 
 
 
-.presentacion_nacho{
+.main_ignaciocane{
     
         h1{display:flex;
             font-size: 60px;
@@ -101,14 +97,8 @@ margin-left: 10px;
             }
             }
 
-.presentacion_nacho div{
-    display: flex;
-    flex-direction:column;
-    justify-content:space-around;
-}
 
-
-.presentacion_nacho div .foto_nacho{
+div .foto_nacho{
     width: 300px;
     height: 300px;
     transform: translateX(625px);
@@ -116,8 +106,9 @@ margin-left: 10px;
     border: 1px white solid; }
 
 
-.presentacion_nacho div .parrafo_nacho{
-    font-size: 30px;
+div .parrafo_nacho{
+    font-size: 40px;
+    margin-top: 20px;
     margin-left: 10px;
 }
 
@@ -165,22 +156,25 @@ opacity: 0;
         }
         }
 
-.presentacion_juan div{
-display: flex;
-flex-direction:column;
-justify-content:space-around;
-}
 
 
-.presentacion_juan div .foto_juan{
-width: 300px;
-height: 300px;
-transform: translateX(635px);
+div .foto_juan{
+width: 500px;
+height: 500px;
+transform: translateX(550px);
+margin-bottom: 10px;
 opacity: 65%;
 border: 1px white solid; }
 
 
-.presentacion_juan div .parrafo_juan{
+.div .parrafo_juan{
 font-size: 30px;
 padding-left: 10px;
+}
+
+
+
+.libro{
+    text-align: center;
+    margin-top: 30px;
 }
