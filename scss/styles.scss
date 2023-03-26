@@ -9,7 +9,10 @@
 @import"filosofia" ;
 @import "proyectos";
 @import"servicios" ;
-
+@import"obranueva";
+@import"reformas";
+@import"renderizado";
+@import"galeria-de-proyectos-residenciales";
 
 @import "index480" ;
 @import "navbar480" ;
@@ -26,12 +29,7 @@
 @import"renderizado480" ;
 @import"reformas480";
 
-$color-black: black;
-$tamaño-letra: 20px ;
-$color-body:rgb(227, 202, 165);
-$color-nav:rgb(206, 171, 147) ;
-$bordes-fotos: white 1px solid;
-$borde-logo:black 1px solid ;
+
 
 @font-face {
     font-family:"Oswald-medium";

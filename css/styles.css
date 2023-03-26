@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0%;
+  box-sizing: border-box;
+  list-style: none;
   color: white;
   font-family: "Inter", sans-serif;
   font-family: "Montserrat", sans-serif;
@@ -172,7 +174,6 @@
 
 .btn_venta:hover:after {
   transform: skewX(-45deg) scale(1, 1);
-  -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 
@@ -195,7 +196,9 @@
   text-decoration: none;
   text-transform: none;
   transition: all 0.3s ease-in-out;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
   font-size: 13px;
 }
 
@@ -371,30 +374,14 @@ div .parrafo_nacho {
 }
 
 .slide-in-bck-center {
-  -webkit-animation: slide-in-bck-center 1.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: slide-in-bck-center 1.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-}
-
-@-webkit-keyframes slide-in-bck-center {
-  0% {
-    -webkit-transform: translateZ(600px);
-    transform: translateZ(600px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    opacity: 1;
-  }
 }
 @keyframes slide-in-bck-center {
   0% {
-    -webkit-transform: translateZ(600px);
     transform: translateZ(600px);
     opacity: 0;
   }
   100% {
-    -webkit-transform: translateZ(0);
     transform: translateZ(0);
     opacity: 1;
   }
@@ -537,6 +524,7 @@ div .foto_juan {
   font-family: "Montserrat", sans-serif;
   font-size: 50px;
   display: flex;
+  text-align: center;
   justify-content: center;
 }
 
@@ -544,7 +532,7 @@ div .foto_juan {
   display: flex;
   flex-direction: row-reverse;
   border: solid 1 px white;
-  text-align: left;
+  text-align: center;
   padding: 5px;
 }
 
@@ -562,7 +550,7 @@ div .foto_juan {
   display: flex;
   flex-direction: row;
   border: solid 1 px white;
-  text-align: left;
+  text-align: center;
   padding: 5px;
 }
 
@@ -572,6 +560,7 @@ div .foto_juan {
   width: 300px;
 }
 .juancane .texto_juan {
+  text-align: center;
   font-size: 30px;
   margin-top: 40px;
 }
@@ -580,7 +569,7 @@ div .foto_juan {
   display: flex;
   flex-direction: row-reverse;
   border: solid 1 px white;
-  text-align: left;
+  text-align: center;
   padding: 5px;
 }
 
@@ -603,6 +592,7 @@ div .foto_juan {
 }
 .main_proyectos p {
   display: flex;
+  text-align: center;
   justify-content: center;
   margin-left: 5px;
   font-size: 25px;
@@ -611,8 +601,9 @@ div .foto_juan {
 .proyecto1 {
   display: flex;
   flex-direction: row-reverse;
+  justify-content: center;
   border: solid 1 px white;
-  text-align: left;
+  text-align: center;
   padding: 5px;
 }
 
@@ -622,6 +613,7 @@ div .foto_juan {
   width: 300px;
 }
 .proyecto1 .texto_proyecto1 {
+  text-align: center;
   font-size: 30px;
   margin-top: 40px;
 }
@@ -630,7 +622,7 @@ div .foto_juan {
   display: flex;
   flex-direction: row;
   border: solid 1 px white;
-  text-align: left;
+  text-align: center;
   padding: 5px;
 }
 
@@ -640,6 +632,7 @@ div .foto_juan {
   width: 300px;
 }
 .proyecto2 .texto_proyecto2 {
+  text-align: center;
   font-size: 30px;
   margin-top: 40px;
 }
@@ -719,10 +712,51 @@ div .foto_juan {
   justify-content: space-around;
 }
 
+.main_obranueva {
+  text-align: center;
+}
+
+.main_reformas {
+  text-align: center;
+}
+
+.main_renderizado {
+  text-align: center;
+}
+
+.main_galeria_Residenciales h1 {
+  text-align: center;
+}
+
+section {
+  display: flex;
+  width: 800px;
+  margin-left: 18rem;
+}
+
+section img {
+  width: 0px;
+  flex-grow: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.8;
+  transition: 0.5 ease;
+}
+
+section img:hover {
+  cursor: pointer;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
 @media screen and (min-width: 0) and (max-width: 480px) {
   * {
     margin: 0;
     padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
     color: white;
     font-family: "Inter", sans-serif;
     font-family: "Montserrat", sans-serif;
@@ -1192,6 +1226,4 @@ div .foto_juan {
 @font-face {
   font-family: "Oswald-medium";
   src: url(../fonts/Oswald-Medium.ttf);
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */

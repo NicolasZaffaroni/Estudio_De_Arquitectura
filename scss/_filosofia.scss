@@ -4,6 +4,7 @@
         font-family: 'Montserrat', sans-serif;
         font-size:50px ;
         display: flex;
+        text-align: center;
         justify-content: center; }
 
 }
@@ -12,7 +13,7 @@
 display: flex;
 flex-direction: row-reverse;
 border: solid 1 px white;
-text-align:left;
+text-align:center;
 padding: 5px;
 }
 
@@ -33,7 +34,7 @@ padding: 5px;
 display: flex;
 flex-direction: row;
 border: solid 1 px white;
-text-align:left;
+text-align:center;
 padding: 5px;
 }
 
@@ -43,6 +44,7 @@ padding: 5px;
     height: 300px;
     width: 300px;
 }.texto_juan{
+    text-align: center;
     font-size: 30px;
     margin-top: 40px;
 }
@@ -54,7 +56,7 @@ padding: 5px;
     display: flex;
     flex-direction: row-reverse;
     border: solid 1 px white;
-    text-align:left;
+    text-align: center;
     padding: 5px;
     }
     
