@@ -57,11 +57,6 @@
   color: black;
 }
 
-.contenedor_ubicacion {
-  height: 100%;
-  width: 100%;
-}
-
 .header_menu {
   display: flex;
   justify-content: space-between;
@@ -411,6 +406,11 @@ div .foto_juan {
   margin-top: 30px;
 }
 
+.main_contacto h1 {
+  font-size: 3em;
+  text-align: center;
+}
+
 .contacto_cliente {
   font-family: "Inter", sans-serif;
   font-family: "Montserrat", sans-serif;
@@ -476,6 +476,11 @@ div .foto_juan {
   outline-offset: 5px;
   color: white;
   background-color: black;
+}
+
+.contenedor_ubicacion {
+  height: 100%;
+  width: 100%;
 }
 
 .main_galeria h1 {
@@ -728,13 +733,13 @@ div .foto_juan {
   text-align: center;
 }
 
-section {
+.galeria_residencial {
   display: flex;
   width: 800px;
-  margin-left: 18rem;
+  margin-left: 400px;
 }
 
-section img {
+.imagen_galeria {
   width: 0px;
   flex-grow: 1;
   -o-object-fit: cover;
@@ -743,7 +748,7 @@ section img {
   transition: 0.5 ease;
 }
 
-section img:hover {
+.imagen_galeria:hover {
   cursor: pointer;
   width: 300px;
   opacity: 1;
@@ -1193,6 +1198,31 @@ section img:hover {
   .link-style .youtube_proyecto {
     width: 300px;
     height: 300px;
+  }
+}
+@media screen and (min-width: 0) and (max-width: 480px) {
+  .main_galeria_Residenciales h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .galeria_residencial {
+    display: flex;
+    width: 300px;
+    margin-left: 50px;
+  }
+  .imagen_galeria {
+    width: 0px;
+    flex-grow: 1;
+    -o-object-fit: cover;
+       object-fit: cover;
+    opacity: 0.8;
+    transition: 0.5 ease;
+  }
+  .imagen_galeria:hover {
+    cursor: pointer;
+    width: 150px;
+    opacity: 1;
+    filter: contrast(120%);
   }
 }
 @media screen and (min-width: 0) and (max-width: 480px) {

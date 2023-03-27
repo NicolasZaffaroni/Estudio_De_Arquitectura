@@ -5,7 +5,12 @@ $color-body:rgb(227, 202, 165);
 $color-nav:rgb(206, 171, 147) ;
 $bordes-fotos: white 1px solid;
 $borde-logo:white 1px solid ;
-
+.main_contacto {
+    h1{
+        font-size: 3em;
+        text-align: center;
+    }
+}
 
 .contacto_cliente{
     font-family: 'Inter', sans-serif;
@@ -80,4 +85,12 @@ $borde-logo:white 1px solid ;
 
 
 
+
+.contenedor_ubicacion{
+    height: 100%;
+    width: 100%;
+
+    
+
+        }
 
