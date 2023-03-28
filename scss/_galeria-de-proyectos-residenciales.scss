@@ -1,32 +1,16 @@
 
-.main_galeria_Residenciales h1{
-    text-align: center;
+.main_galeria_residencia{
+    h1{
+    margin-left: 50px;
+    text-align: center; }
 
 
 }
 
 
-
-
-
-.galeria_residencial{
-    display: flex;
-    width:800px;
-    margin-left: 400px;
-
-}
-
-.imagen_galeria{
-    width: 0px;
-    flex-grow: 1;
-    object-fit: cover;
-    opacity: .8;
-    transition: .5 ease; }
-
-
-.imagen_galeria:hover{
-    cursor: pointer;
+.d-block {
     width: 300px;
-    opacity: 1;
-    filter: contrast(120%);
+    height: 500px;
 }
+
+

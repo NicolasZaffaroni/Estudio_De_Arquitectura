@@ -586,6 +586,7 @@ div .foto_juan {
 .canehijos .texto_canehijos {
   font-size: 30px;
   margin-top: 40px;
+  margin-right: 10px;
 }
 
 .main_proyectos h1 {
@@ -729,30 +730,14 @@ div .foto_juan {
   text-align: center;
 }
 
-.main_galeria_Residenciales h1 {
+.main_galeria_residencia h1 {
+  margin-left: 50px;
   text-align: center;
 }
 
-.galeria_residencial {
-  display: flex;
-  width: 800px;
-  margin-left: 400px;
-}
-
-.imagen_galeria {
-  width: 0px;
-  flex-grow: 1;
-  -o-object-fit: cover;
-     object-fit: cover;
-  opacity: 0.8;
-  transition: 0.5 ease;
-}
-
-.imagen_galeria:hover {
-  cursor: pointer;
+.d-block {
   width: 300px;
-  opacity: 1;
-  filter: contrast(120%);
+  height: 500px;
 }
 
 @media screen and (min-width: 0) and (max-width: 480px) {
