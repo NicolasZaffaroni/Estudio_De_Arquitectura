@@ -7,19 +7,11 @@ $borde-logo:black 1px solid ;
 
 
 
-.header_menu{
-
-
+.navbar-collapse{
     display: flex;
-    justify-content:space-between;
-    
-    padding-right: 10px;
-    padding-left: 10px;
-    text-align: center;
-    padding: 10px 350px 0px 10px 5px ;
+    justify-content: flex-end;
+    align-items: center;
 }
-
-
 
 .logo img{
     float: left;
@@ -31,47 +23,38 @@ $borde-logo:black 1px solid ;
     
 
 }
-
-
-.header_menu .menu_links{
-    list-style: none;
-    justify-self: end;
-
-}
-
-.header_menu .menu_links li{
-    display: inline-block;
-    padding: 5px;
-}
-.header_menu .menu_links a{
-    font-size:  20px;
-    
-
-    text-decoration:none;
-    color: white;
-
+.nav-link{
+    color: #ffffff;
 }
 
 
 
-.header_menu .menu_links a:hover{
-    color:black;
-}
 
-.bi-instagram{
-    font-size:30px;
-    
-}
-.bi-facebook{
-    
-    font-size: 30px;
-} 
-
-.header_menu .menu_links .bi-facebook:hover{
-    color:black; }
-
-
-    .header_menu .menu_links .bi-instagram:hover{
-        color:black; }
-
+.container_redes{
+            width: 100%;
+            margin-right: 50px;
+            margin-top: 5px;
+            padding: 15px;
+            font-size: 5px;
+            text-align: right;
+            border-bottom: 1px solid  #ffffff ;
+            display: flex;
+            justify-content:right;
+            
         
+        }
+.bi-instagram{
+    padding: 10px;
+}
+
+.bi-instagram:hover{
+            color:#000000; }
+
+
+.bi-facebook:hover{
+                color:#000000; }
+
+
+.dropdown-menu{
+    background-color: none;
+}

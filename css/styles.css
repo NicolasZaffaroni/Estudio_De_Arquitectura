@@ -57,13 +57,10 @@
   color: black;
 }
 
-.header_menu {
+.navbar-collapse {
   display: flex;
-  justify-content: space-between;
-  padding-right: 10px;
-  padding-left: 10px;
-  text-align: center;
-  padding: 10px 350px 0px 10px 5px;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .logo img {
@@ -75,40 +72,36 @@
   transform: translate(5px);
 }
 
-.header_menu .menu_links {
-  list-style: none;
-  justify-self: end;
+.nav-link {
+  color: #ffffff;
 }
 
-.header_menu .menu_links li {
-  display: inline-block;
-  padding: 5px;
-}
-
-.header_menu .menu_links a {
-  font-size: 20px;
-  text-decoration: none;
-  color: white;
-}
-
-.header_menu .menu_links a:hover {
-  color: black;
+.container_redes {
+  width: 100%;
+  margin-right: 50px;
+  margin-top: 5px;
+  padding: 15px;
+  font-size: 5px;
+  text-align: right;
+  border-bottom: 1px solid #ffffff;
+  display: flex;
+  justify-content: right;
 }
 
 .bi-instagram {
-  font-size: 30px;
+  padding: 10px;
 }
 
-.bi-facebook {
-  font-size: 30px;
+.bi-instagram:hover {
+  color: #000000;
 }
 
-.header_menu .menu_links .bi-facebook:hover {
-  color: black;
+.bi-facebook:hover {
+  color: #000000;
 }
 
-.header_menu .menu_links .bi-instagram:hover {
-  color: black;
+.dropdown-menu {
+  background-color: none;
 }
 
 .boton_enviar {
@@ -522,6 +515,10 @@ div .foto_juan {
   cursor: pointer;
   text-decoration: none;
   color: white;
+}
+
+.nav-link {
+  color: #ffffff;
 }
 
 .main_filosofia h1 {
