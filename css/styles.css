@@ -822,7 +822,7 @@ div .foto_juan {
   .main_equipo h1 {
     font-family: "Inter", sans-serif;
     font-family: "Montserrat", sans-serif;
-    font-size: 25px;
+    font-size: 16px;
     color: white;
     padding-top: 10%;
     padding-left: 29%;
@@ -838,6 +838,7 @@ div .foto_juan {
   .main_equipo .equipo li a {
     color: white;
     text-decoration: none;
+    font-size: 10px;
   }
   .main_equipo .equipo .btn button {
     font-weight: 30px;
@@ -859,7 +860,7 @@ div .foto_juan {
   }
   .main_pedrocane h1 {
     display: flex;
-    font-size: 35px;
+    font-size: 16px;
     justify-content: center;
   }
   div .foto_pedro {
@@ -871,12 +872,12 @@ div .foto_juan {
     margin-left: 50px;
   }
   div .parrafo_pedro {
-    font-size: 15px;
+    font-size: 14px;
     text-align: center;
   }
   .main_ignaciocane h1 {
     display: flex;
-    font-size: 35px;
+    font-size: 16px;
     justify-content: center;
   }
   div .foto_nacho {
@@ -888,11 +889,11 @@ div .foto_juan {
     margin-left: 50px;
   }
   div .parrafo_nacho {
-    font-size: 15px;
+    font-size: 14px;
     text-align: center;
   }
   .main_juancane h1 {
-    font-size: 30px;
+    font-size: 16px;
     text-align: center;
   }
   div .foto_juan {
@@ -904,7 +905,7 @@ div .foto_juan {
     margin-left: 50px;
   }
   div .parrafo_juan {
-    font-size: 15px;
+    font-size: 14px;
     text-align: center;
   }
 }
@@ -969,7 +970,7 @@ div .foto_juan {
 @media screen and (min-width: 0) and (max-width: 480px) {
   .main_galeria h1 {
     display: flex;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     justify-content: center;
   }
@@ -1009,7 +1010,7 @@ div .foto_juan {
   .main_filosofia h1 {
     font-family: "Inter", sans-serif;
     font-family: "Montserrat", sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -1023,11 +1024,11 @@ div .foto_juan {
   .juancarloscane .imagen_juancarlos {
     border: solid 1 px white;
     margin-top: 40px;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
   }
   .juancarloscane .texto_juancarlos {
-    font-size: 15px;
+    font-size: 10px;
     margin-top: 40px;
   }
   .juancane {
@@ -1043,7 +1044,7 @@ div .foto_juan {
     width: 100px;
   }
   .juancane .texto_juan {
-    font-size: 15px;
+    font-size: 10px;
     margin-top: 40px;
   }
   .canehijos {
@@ -1059,7 +1060,7 @@ div .foto_juan {
     width: 100px;
   }
   .canehijos .texto_canehijos {
-    font-size: 15px;
+    font-size: 10px;
     margin-top: 40px;
   }
 }
@@ -1198,7 +1199,7 @@ div .foto_juan {
 }
 @media screen and (min-width: 0) and (max-width: 480px) {
   .main_servicios h1 {
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 40px;
     display: flex;
     text-align: center;

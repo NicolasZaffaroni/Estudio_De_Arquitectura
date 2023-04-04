@@ -20,7 +20,7 @@
 .main_equipo h1{
     font-family: 'Inter', sans-serif;
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
+    font-size: 16px;
     color: white; 
     padding-top: 10%;
 
@@ -32,15 +32,18 @@
             list-style:none;
             flex-direction: column;
             align-items: center;
+            
         }
         
     .main_equipo .equipo li{
             padding: 10px;
             
+            
         }
         .main_equipo .equipo li a{
             color: white;
             text-decoration:none;
+            font-size: 10px;
         }
         
         .main_equipo .equipo .btn button{
@@ -67,7 +70,7 @@
             .main_pedrocane{
     
                 h1{display:flex;
-                    font-size: 35px;
+                    font-size: 16px;
                     justify-content: center;
                     }
                     }
@@ -84,7 +87,7 @@
         
             
             div .parrafo_pedro{
-            font-size: 15px;
+            font-size: 14px;
             text-align: center;
             
             }
@@ -92,7 +95,7 @@
             .main_ignaciocane{
     
                 h1{display:flex;
-                    font-size: 35px;
+                    font-size: 16px;
                     justify-content: center;
                     }
                     }
@@ -107,7 +110,7 @@
         
         
         div .parrafo_nacho{
-            font-size: 15px;
+            font-size: 14px;
             text-align: center;
             
         }
@@ -116,7 +119,7 @@
         .main_juancane{
     
             h1{
-                font-size: 30px;
+                font-size: 16px;
                 
                 text-align: center;
                 
@@ -137,7 +140,7 @@
         
         
         div .parrafo_juan{
-        font-size: 15px;
+        font-size: 14px;
         text-align: center;
         
         }
